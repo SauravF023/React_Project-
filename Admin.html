@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Page</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <header>
+    <h1>B.planet</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Profile / About us</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="login-section">
+      <h2>Login</h2>
+      <p>Welcome back !!</p>
+      <form>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="abc@gmail.com" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="********" required>
+
+        <a href="#">Forget Password?</a>
+        <button type="submit">Login</button>
+      </form>
+      <p>Don't have an account yet? <a href="#">Sign up for free</a></p>
+    </section>
+
+    <section class="product-section">
+      <h2>Featured Product</h2>
+      <div class="product-gallery">
+        <div class="product-item">Tree 1</div>
+        <div class="product-item">Plant 1</div>
+        <div class="product-item">Plant 2</div>
+        <div class="product-item">Tree 1</div>
+        <div class="product-item">Tree 1</div>
+        <div class="product-item">Tree 1</div>
+      </div>
+      <div class="navigation">
+        <button>Previous</button>
+        <button>Next</button>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <h2>Contact us</h2>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+
+        <label for="query">What can we help you with?</label>
+        <textarea id="query" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Stay Updated</p>
+    <a href="#">Facebook</a>
+    <a href="#">Instagram</a>
+  </footer>
+</body>
+</html>
